@@ -48,6 +48,7 @@ Apačioje nurodau savo parašytus 2 automatinius testus pagal duotas sąlygas:
 // })
 
 
+
     // it('scenario two', () => {
     //     cy.visit('https://magento.softwaretestingboard.com/')
     //     cy.get('#ui-id-4').trigger('mouseover')
