@@ -6,7 +6,7 @@ Pirmam paleidimui ir projektų kūrimui terminale parašome: npx cypress open.
 Visų kuriamų automatinių testų pavadinimai turi užsibaigti su galūne "cy.js" jeigu bus naudojama Javascript kalba kaip mano atveju.
 Apačioje nurodau savo parašytus 2 automatinius testus pagal duotas sąlygas:
 
-'''javascript
+```javascript
 // describe('magento', () => {
 // it('scenario one', () => {
 // Cypress.on('uncaught:exception', (err, runnable) => {  
@@ -45,7 +45,7 @@ Apačioje nurodau savo parašytus 2 automatinius testus pagal duotas sąlygas:
 //   cy.get('.payment-method-content > :nth-child(4) > div.primary > .action').click()
 // })
 // })
-'''
+```
     // it('scenario two', () => {
     //     cy.visit('https://magento.softwaretestingboard.com/')
     //     cy.get('#ui-id-4').trigger('mouseover')
